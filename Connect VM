@@ -1,0 +1,20 @@
+gcloud beta compute ssh --zone "asia-southeast1-b""tumbuhinapi"  --project "tumbuhin"
+enter "Y"
+---------------------------------------------------------------------------------------------------
+The key fingerprint is:
+SHA256:95jHrmzccu+T0NvIP4g5pHmAz2WCoD5vqrUSlmv02c0 c3162844@cs-107543472357-default-boost-qrxv7
+The key's randomart image is:
++---[RSA 2048]----+
+|                 |
+|                 |
+|                 |
+|     .           |
+|  . . . S .  .   |
+| = .   o + O. .  |
+|o =.o o o.@.*o.= |
+| +.=.o E *+Bo.*..|
+|..oo=.   .++ooooo|
++----[SHA256]-----+
+---------------------------------------------------------------------------------------------------
+mysql --host=35.240.207.140 \
+> --user=root --password
