@@ -1,8 +1,8 @@
  <?php
  define('HOST','localhost');
- define('USER','root');
- define('PASS','root');
- define('DB','TumbuhinV2');
+ define('USER','');
+ define('PASS','');
+ define('DB','');
 
  $con = mysqli_connect(HOST,USER,PASS,DB) or die('Unable to Connect');
  
